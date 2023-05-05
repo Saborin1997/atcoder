@@ -2,7 +2,7 @@ package atcoder;
 
 import java.util.Scanner;
 
-public class Main {
+public class Welcome_to_AtCoder {
 	public static void main(String[] args){
 		Scanner sc = new Scanner(System.in);
 		// 整数の入力
