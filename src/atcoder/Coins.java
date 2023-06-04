@@ -6,7 +6,7 @@ public class Coins {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		//A:500円玉の枚数
+		//A:500円玉の枚数.
 		int A = sc.nextInt();
 		//B:100円玉の枚数
 		int B = sc.nextInt();
