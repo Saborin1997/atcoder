@@ -27,6 +27,7 @@ public class Coins {
 			}
 		}
 		
+		
 		System.out.println(total);
 		sc.close();
 	}
