@@ -9,13 +9,13 @@ import java.sql.SQLException;
 public class Postgre_test {
 
 	public static void main(String[] args) {
-		 String url = "jdbc:postgresql://localhost:5432/postgres";
-		 String user = "postgres";
-		 String password = "sabo0202";
+		 String url = "jdbc:postgresql://localhost:5432/DB名";
+		 String user = "ユーザーネーム";
+		 String password = "パスワード";
 		 
 		 try(Connection conn = DriverManager.getConnection(url,user,password)) {
 			 
-	            String sql = "SELECT * FROM TIMELINE";
+	            String sql = "SELECT * FROM テーブル名";
 	            PreparedStatement pStmt = conn.prepareStatement(sql);
 
 	            ResultSet rs = pStmt.executeQuery();
